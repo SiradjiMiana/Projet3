@@ -1,0 +1,754 @@
+/*Elements de la page*/
+
+header{
+  text-align: center;
+}
+
+body{
+  background-color: rgb(160, 200, 235);
+}
+
+#animaux {
+  padding-bottom: 40px;
+  transform: scale(70%);
+}
+
+p{
+  padding: 50px 100px 50px 100px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Georgia;
+}
+
+footer{
+  transform: translate(0px,500px);
+}
+
+/*Parties du corps pour le Crabe*/
+
+.corps1{
+  position: absolute;
+  top:200px;
+  left: 170px;
+  border-bottom: 100px solid red;
+  border-top: 100px;
+  border-left  : 15px solid transparent; 
+  border-right : 15px solid transparent;
+  width  : 115px;
+  transform: rotate(180deg);
+}
+
+.corps2{
+  position: absolute;
+  top: 300px;
+  left: 170px;
+  border-bottom: 100px solid red;
+  border-top: 100px;
+  border-left  : 15px solid transparent; 
+  border-right : 15px solid transparent;
+  width  : 115px;
+}
+
+.cote {
+  position: absolute;
+  left: 141px;
+  top: 230px;
+  z-index: -1;
+  box-sizing : border-box;
+  width : 202px;
+  height : 140px;
+  background-color : black;
+  transform: rotateZ(90deg);
+}
+
+.cotedroite{
+  position: absolute;
+  top: 200px;
+  left: 312px;
+  height: 0px;
+  width: 0px;
+  border-top: 44px solid transparent;
+  border-bottom: 156px solid transparent;
+  border-left: 115px solid black;
+}
+
+.cotegauche{
+  position: absolute;
+  top: 200px;
+  left: 57px;
+  height: 0px;
+  width: 0px;
+  border-top: 44px solid transparent;
+  border-bottom: 156px solid transparent;
+  border-right: 115px solid black;
+}
+
+.pattearrieregauche{
+  position: absolute;
+  z-index: -1;
+  top: 224px;
+  left: 77px;
+  height: 0px;
+  width:28px;
+  border-top: 44px solid transparent;
+  border-bottom: 103px solid transparent;
+  border-right: 76px solid red;
+  transform: rotate(162deg);
+}
+
+.pattearrieredroite{
+  position: absolute;
+  z-index: -1;
+  top: 229px;
+  left: 331px;
+  height: 0px;
+  width: 0px;
+  border-top: 44px solid transparent;
+  border-bottom: 103px solid transparent;
+  border-left: 76px solid red;
+  transform: rotate(-162deg);
+}
+
+.pattedroite1{
+  position: absolute;
+  top: 158px;
+  left: 348px;
+  height: 0px;
+  width: 0px;
+  border-top: 31px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-left: 46px solid gray;
+  transform: rotate(82deg);
+}
+
+.pattedroite2{
+  position: absolute;
+  top: 125px;
+  left: 366px;
+  height: 0px;
+  width: 0px;
+  border-top: 31px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-left: 46px solid black;
+  transform: rotate(53deg);
+}
+
+.pattedroite3{
+  position: absolute;
+  top: 87px;
+  left: 366px;
+  height: 0px;
+  width: 0px;
+  border-top: 31px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-left: 46px solid gray;
+  transform: rotate(24deg);
+}
+
+.pattedroite4{
+  position: absolute;
+  top: 75px;
+  left: 337px;
+  height: 0px;
+  width: 0px;
+  border-top: 29px solid transparent;
+  border-bottom: 41px solid transparent;
+  border-left: 46px solid red;
+  transform: rotate(82deg);
+}
+
+.pattegauche1{
+  position: absolute;
+  top: 158px;
+  left: 90px;
+  height: 0px;
+  width: 0px;
+  border-top: 31px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-right: 46px solid gray;
+  transform: rotate(278deg);
+}
+
+.pattegauche2{
+  position: absolute;
+  top: 125px;
+  left: 72px;
+  height: 0px;
+  width: 0px;
+  border-top: 31px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-right: 46px solid black;
+  transform: rotate(-53deg);
+}
+
+.pattegauche3{
+  position: absolute;
+  top: 87px;
+  left: 72px;
+  height: 0px;
+  width: 0px;
+  border-top: 31px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-right: 46px solid gray;
+  transform: rotate(-24deg);
+}
+
+.pattegauche4{
+  position: absolute;
+  top: 75px;
+  left: 101px;
+  height: 0px;
+  width: 0px;
+  border-top: 29px solid transparent;
+  border-bottom: 41px solid transparent;
+  border-right: 46px solid red;
+  transform: rotate(-82deg);
+}
+
+/* Mise en page du Renard */
+
+#renard{
+ transform: scale(200%);
+ position: absolute;
+ top: -250px;
+ left: 50px;
+}
+
+
+#renard1{
+  position: absolute ; 
+  top: 200px;
+  left: 100px;
+  height : 0;
+  width : 0;
+  border-top : 100px solid gray;
+  border-right : 20px solid transparent;
+  border-left : 20px solid transparent;
+}
+#renard2{
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  height : 0;
+  width : 0;
+  border-top : 100px solid gray;
+  border-right : 20px solid transparent;
+  border-left : 20px solid transparent;
+  transform: rotate(23deg);
+}
+#renard3{
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  height : 0;
+  width : 0;
+  border-top : 100px solid gray;
+  border-right : 20px solid transparent;
+  border-left : 20px solid transparent;
+  transform: rotate(-23deg);
+}
+#renard4{
+  position: absolute;
+  top: 220px;
+  left: 50px;
+  height : 0;
+  width : 0;
+  border-right : 70px solid transparent;
+  border-bottom : 50px solid red;
+  transform: rotate(19deg);
+}
+#renard5{
+  position: absolute;
+  top: 220px;
+  left: 120px ;
+  height : 0;
+  width : 0;
+  border-left : 70px solid transparent;
+  border-bottom : 50px solid red;
+  transform: rotate(-19deg);
+}
+
+#renard6{
+  position: absolute;
+  top: 159px; ;
+  left: 53px;
+  height:0 ;
+  width: 0;
+  border-top: 50px solid orange;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  transform: rotate(160deg);
+}
+#renard7{
+  position: absolute;
+  top: 159px;
+  left: 150px ;
+  height: 0 ;
+  width: 0;
+  border-top: 50px solid orange;
+  border-right:20px solid transparent ;
+  border-left:20px solid transparent ;
+  transform: rotate( -160deg);
+
+}
+
+/* Mise en page du Poisson */
+
+.box8{
+  transform: translate(200px,-1500px);
+}
+#poisson1 {
+  position: absolute;
+  left: 230px;
+  top: 228px;
+  right: 230px;
+  width: 250px;
+  height: 250px;
+  background-color: aqua;
+  transform: rotateZ(40deg);
+}
+
+#poisson2 {
+  position: absolute;
+  left: 339px;
+  right: 258px;
+  top: 494px;
+  background-size: cover;
+  width  : 0px;
+  height : 0px;
+  border-left  : 60px solid transparent;
+  border-right : 70px solid transparent;
+  border-top   : 70px solid orangered;
+  transform: rotateZ(81deg)
+}
+
+#poisson3 {
+  position: absolute;
+  left: 309px;
+  top: 142px;
+  right: 96px;
+  width  : 0px;
+  height : 0px;
+  border-left  : 60px solid transparent;
+  border-right : 70px solid transparent;
+  border-top   : 70px solid black;
+  transform: rotateZ(85deg); 
+}
+
+#poisson4 {
+  position: absolute;
+  left: 202px;
+  top: 304px;
+  width: 115px;
+  height: 115px;
+  background-color: rgb(3, 5, 5);
+  transform: rotateZ(40deg);
+}
+
+#poisson5{
+
+  align-self: flex-start;
+  position: absolute;
+  left: 481px;
+  top: 279px;
+  border-bottom: 40px solid green;
+  border-left  : 30px solid transparent; 
+  border-right : 30px solid transparent;
+  transform: rotate(164deg);
+  height : 0;
+  width  : 50px;
+}
+
+#poisson6 {
+
+  position: absolute;
+  left: 482px;
+  top: 359px;
+  border-bottom: 40px solid green;
+  border-left  : 30px solid transparent; 
+  border-right : 30px solid transparent;
+  transform: rotate(5deg);
+  height : 0;
+  width  : 50px;
+}
+
+/* Mise en page du Chien */
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  border: solid 4px transparent;
+  margin-top: 2%;
+  width: 600px;
+  height: 420px;
+  background: none;
+ 
+}
+
+.head{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 52%;
+  height: 60%;
+  background:  bisque;/*£ace*/
+  border-radius:  125px;
+  z-index: 3; 
+}
+
+.head-copy{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:  bisque;/*£ace*/
+  border-radius:  125px;
+  z-index: 2; 
+}
+
+.ear-left-botton{
+  position: absolute;
+  top: 4%;
+  left: -16%;
+  width: 30%;
+  height: 45%;
+  background: #46280a;
+  border-radius: 45%;
+  z-index: 1; 
+}
+
+.ear-left-upper{
+  position: absolute;
+  top: -7%;
+  left: -16%;
+  width: 30%;
+  height: 30%;
+  background: #422709;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ear-right-botton{
+  position: absolute;
+  top: 4%;
+  right: -16%;
+  width: 30%;
+  height: 45%;
+  background: #c9690a;
+  border-radius: 45%;
+  z-index: 1;
+}
+
+.ear-right-upper{
+  position: absolute;
+  top: -7%;
+  right: -16%;
+  width: 30%;
+  height: 30%;
+  background: #d6700a;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.brow-left{
+  position: absolute;
+  width: 8%;
+  height: 10%;
+  left: 22%;
+  top: 17%;
+  background:#654321; 
+  border-radius: 50%;
+  z-index: 3; 
+}
+
+.brow-right{
+  position: absolute;
+  width: 8%;
+  height: 10%;
+  right: 22%;
+  top: 17%;
+  background:#d6700a; 
+  border-radius: 50%;
+  z-index: 3; 
+}
+
+.big-eye{
+  position: absolute;
+  width: 30%;
+  height: 45%;
+  left: 15%;
+  top: 23%;
+  background:#d6700a; 
+  border-radius: 50%;
+  z-index: 3; 
+}
+
+.eye-left{
+  position: absolute;
+  width: 14%;
+  height: 16%;
+  left: 24%;
+  top: 37%;
+  background:#000; 
+  border: #fff 7px solid;
+  border-radius: 50%;
+  z-index: 3; 
+}
+
+.eye-right{
+  position: absolute;
+  width: 14%;
+  height: 16%;
+  right: 24%;
+  top: 37%;
+  background:#000; 
+  border: #fff 7px solid;
+  border-radius: 50%;
+  z-index: 3; 
+}
+
+.pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 6%;
+  left: 58%;
+  background:#fff; 
+  border-radius: 50%;    
+}
+
+.nose{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 55%;
+  left: 40%;
+  background:#000; 
+  border-radius: 50%;
+  z-index: 4; 
+}
+
+.mouth{
+  position: absolute;
+  width: 32%;
+  height: 20%;
+  top: 85%;
+  left: 36%;
+  background:#654321; 
+  border-radius: 50%;
+  z-index: 4; 
+
+  -webkit-clip-path: circle(25.4% at 50% 0);
+  clip-path: circle(25.4% at 50% 0);
+}
+
+.shadow{
+  position: absolute;
+  width: 54%;
+  height: 20%;
+  top: 110%;
+  left: 26%;
+  background:#d12b0a; 
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.cheek-left{
+  position: absolute;
+  width: 28%;
+  height: 32%;
+  top: 55%;
+  left: 14%;
+  background:#f6cbc2; 
+  border-radius: 50%;
+  z-index: 2; 
+}
+
+.cheek-right{
+  position: absolute;
+  width: 28%;
+  height: 32%;
+  top: 55%;
+  right: 14%;
+  background:#f6cbc2; 
+  border-radius: 50%;
+  z-index: 2;
+}
+
+body {
+background-color: #A9BCF5;
+}
+
+h1 {
+text-align: center;
+font-family: 'Righteous', cursive;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+.jumbotron {
+background-color: transparent;
+padding-top: 1%;
+}
+
+/* Elephant CSS*/
+.box {
+position: relative;
+margin: auto;
+display: block;
+margin-top: 5%;
+width: 600px;
+height: 420px;
+background: none;
+}
+
+.head {
+position: absolute;
+top: 1%;
+left: 20%;
+width: 60%;
+height: 87%;
+border-radius: 50%;
+background: #AEADAF;
+}
+
+.head-copy {
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+z-index: 2;
+background: #AEADAF;
+}
+
+.left-ear {
+position: absolute;
+width: 80%;
+height: 80%;
+left: -35%;
+top: -10%;
+background: #AEADAF;
+border-radius: 34%;
+z-index: 1;
+}
+
+.right-ear {
+position: absolute;
+width: 80%;
+height: 80%;
+right: -35%;
+top: -10%;
+background: #AEADAF;
+border-radius: 34%;
+z-index: 1;
+}
+
+.left-inner-ear{
+position: absolute;
+border-radius: 34%;
+width: 70%;
+height: 70%;
+top: 16%;
+left: 12%;
+background: #5b65f5;
+}
+
+.right-inner-ear{
+position: absolute;
+border-radius: 34%;
+width: 70%;
+height: 70%;
+top: 16%;
+right: 12%;
+background: #5b65f5;
+}
+
+.left-eye {
+position: absolute;
+width: 30%;
+height: 33%;
+top: 25%;
+left: 21%;
+border-radius: 50%;
+z-index: 3;
+}
+
+.right-eye {
+position: absolute;
+width: 30%;
+height: 33%;
+top: 25%;
+right: 21%;
+border-radius: 50%;
+z-index: 2;
+}
+
+.pupil{
+position: absolute;
+width: 28%;
+height: 30%;
+top: 50%;
+left: 36%;
+border-radius: 50%;
+background: #27354A;
+}
+
+.twinkle {
+position: absolute;
+width: 30%;
+height: 30%;
+top: 12%;
+right: 10%;
+border-radius: 50%;
+background: #ffffff;
+}
+
+.trunk {
+position: absolute;
+top: 60%;
+left: 10%;
+width: 80%;
+height: 80%;
+background: #AEADAF;
+-webkit-clip-path: polygon(20% 0, 80% 0%, 60% 100%, 40% 100%);
+clip-path: polygon(20% 0, 80% 0%, 60% 100%, 40% 100%);
+z-index: 3;
+}
+
+.left-tusk {
+position: absolute;
+top: 90%;
+left: 10%;
+width: 20%;
+height: 20%;
+background:  #ffffff;
+-webkit-clip-path: polygon(67% 0%, 98% 0%, 86% 40%, 59% 82%, 35% 100%);
+clip-path: polygon(67% 0%, 98% 0%, 86% 40%, 59% 82%, 35% 100%);
+z-index: 5;
+}
+.right-tusk {
+position: absolute;
+top: 90%;
+left: 70%;
+width: 20%;
+height: 20%;
+background:  #ffffff;
+-webkit-clip-path: polygon(67% 0%, 98% 0%, 86% 40%, 59% 82%, 35% 100%);
+clip-path: polygon(67% 0%, 98% 0%, 86% 40%, 59% 82%, 35% 100%);
+transform: scaleX(-1);
+z-index: 5;
+}
+
+/*Invisibilité des animaux en dessous de 320 pixels*/
+
+@media screen and (max-width:320px) {
+  div{
+    visibility:hidden;
+  }
+}
+
+/*Couleur rouge pour les animaux, uniquement sur un "iphone xr"*/
+
+@media only screen and (max-width:414) and (max-height:896){
+  
+}

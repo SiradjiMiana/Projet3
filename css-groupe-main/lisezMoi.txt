@@ -1,0 +1,30 @@
+Intro: Les animaux de compagnie du capitaine Ari ont explosé,
+aidez le capitaine cendrais à reconstituer ses animaux
+
+Formez 3 équipes
+Créez un nom d'équipe
+Rejoignez un groupe vocal sur discord (1vocal= 1équipe)
+
+=> créez un dossier avec un index.html et style.css (dossier commun, partez sur la même base)
+
+Insérez votre nom de groupe dans title
+Vous allez créer en CSS les 3 dessins ci joints. Et 2 autres au choix (animaux géométrique)
+Tout doit être en HTML et CSS
+Intégrez des couleurs à vos dessins
+
+Les animaux doivent être invisible en dessous de 320 pixels
+les animaux ont une couleur rouge uniquement sur un "iphone xr"
+Intégrez un son ambiant 
+créez un paragraphe
+dans le paragraphe, imaginez et créer une histoire de 250 caractéres minimum (racontez comment les animaux du capitaine Ari ont survécus)
+
+(Tout le monde doit travailler)
+--- Quand vous avez finis =>
+envoyez moi votre travail.
+Allez sur le site Github.com
+
+Créer un nouveau référentiel privé
+Nom du référentiel: "nom de groupe"
+Upload ton travail
+
+Enjoy
